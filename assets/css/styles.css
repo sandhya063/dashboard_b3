@@ -33,7 +33,49 @@ a {
 .form-item  label {
     font-weight: 500;
     line-height: 1.6;
+    align-items: center;
+    display: flex;
 }
+.form-item  label input[type="checkbox"] {
+    margin-right: 5px;
+}
+.forgot {
+    margin-left: 200px;
+}
+.form-item div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.form-item a {
+    color: var(--gray-text);
+    text-decoration: none;
+
+}
+
+.avatar-xl {
+    width: 7.5rem;
+    height: 7.5rem;
+
+}
+.info {
+    background-color: rgb(210, 156, 64);
+    color: rgb(254, 244, 228);
+    padding: 12px 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+}
+
+.form-item p.form-item-info{
+    margin: 0;
+}
+
+.auth-box .intro {
+    line-height: 1.6;
+}
+
+
 
 .form-item  label span {
     color: red;
