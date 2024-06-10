@@ -226,3 +226,94 @@ a {
 /* START SIGN UP */
 
 /* END SIGN UP */
+
+
+/*Start Dashboard*/
+
+aside {
+    width: 250px;
+    background-color: var(--primary-color);
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0px 20px;
+    box-sizing: border-box;
+
+}
+
+aside h1 {
+    text-align: center;
+    line-height: 70px;
+    position: sticky;
+}
+
+aside h1 img {
+    height: 17px;
+    width: auto;
+
+}
+aside nav .nav-title {
+text-transform: uppercase;
+font-size:11px;
+font-weight: 600;
+line-height: 1.6;
+color: rgb(131, 143, 185);
+padding: 12px 0;
+
+}
+
+aside nav a {
+    padding: 10px 0;
+    color: rgb(171, 185, 232);
+    text-decoration: none;
+    font-size: 15px;
+    align-items: center;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+aside nav a span {
+    flex-grow: 2;
+}
+
+aside nav a i {
+    margin-right: 10px;
+    font-size: 18px;;
+    
+}
+
+aside nav a i.ri-arrow-down-s-line {
+    display: none;
+}
+aside nav a i:nth-child(2) {
+    margin-right: 0;
+}
+
+
+
+
+aside nav a.active 
+
+aside nav a.active {
+color: #fff;
+}
+aside nav a.active,
+aside nav a:hover {
+    color: #fff;
+}
+
+aside nav a.active i.ri-arrow-down-s-line {
+    display: block;
+}
+
+aside nav a.active i.ri-arrow-right-s-line {
+    display: none;
+
+}
+
+
+
+/*End Dashboard */
