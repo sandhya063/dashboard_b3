@@ -310,10 +310,14 @@ aside nav a.active i.ri-arrow-down-s-line {
 }
 
 aside nav a.active i.ri-arrow-right-s-line {
-    display: none;
-
+    
+display: none;
 }
 
+aside nav ul ul a {
+
+}
+aside nav ul ul 
 
 
 /*End Dashboard */
